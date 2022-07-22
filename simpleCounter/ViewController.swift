@@ -17,9 +17,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func incrementButtonDidTap(_ sender: Any) {
-        
+        if (counter < UInt32.max) {
+            counter+=1
+        }
+        counterStateLabel.text = "Значение счётчика: \(counter)"
     }
-    
 
 }
 
