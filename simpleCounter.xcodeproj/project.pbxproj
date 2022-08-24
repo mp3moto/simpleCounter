@@ -13,6 +13,7 @@
 		84CDBB0D288B32D600D8FE23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CDBB0B288B32D600D8FE23 /* Main.storyboard */; };
 		84CDBB0F288B32DA00D8FE23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CDBB0E288B32DA00D8FE23 /* Assets.xcassets */; };
 		84CDBB12288B32DA00D8FE23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CDBB10288B32DA00D8FE23 /* LaunchScreen.storyboard */; };
+		84F0E4D928B67ABA002C2A5F /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0E4D828B67AB9002C2A5F /* AlertPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		84CDBB0E288B32DA00D8FE23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84CDBB11288B32DA00D8FE23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84CDBB13288B32DA00D8FE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F0E4D828B67AB9002C2A5F /* AlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		84CDBB04288B32D600D8FE23 /* simpleCounter */ = {
 			isa = PBXGroup;
 			children = (
+				84F0E4D728B679FB002C2A5F /* Services */,
 				84CDBB05288B32D600D8FE23 /* AppDelegate.swift */,
 				84CDBB07288B32D600D8FE23 /* SceneDelegate.swift */,
 				84CDBB09288B32D600D8FE23 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				84CDBB13288B32DA00D8FE23 /* Info.plist */,
 			);
 			path = simpleCounter;
+			sourceTree = "<group>";
+		};
+		84F0E4D728B679FB002C2A5F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				84F0E4D828B67AB9002C2A5F /* AlertPresenter.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				84CDBB0A288B32D600D8FE23 /* ViewController.swift in Sources */,
 				84CDBB06288B32D600D8FE23 /* AppDelegate.swift in Sources */,
 				84CDBB08288B32D600D8FE23 /* SceneDelegate.swift in Sources */,
+				84F0E4D928B67ABA002C2A5F /* AlertPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
